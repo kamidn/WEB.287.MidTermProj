@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&display=swap');
+
+:root {
+	--clr-primary-100: #6FABD0;
+	--clr-primary-900: #295982;
+
+	--clr-secondary-100: #D7F0E9;
+	--clr-secondary-900: #92C0D7;
+
+	--clr-neutral-100: #F9ECDC;
+	--clr-neutral-900: #C2B280;
+
+	--clr-accent-100: #B0D5C7;
+	--clr-accent-900: #477977;
+
+	--ff-primary: 'Roboto', sans-serif;
+	--ff-accent: 'Playfair Display', serif;
+}
+
+body {
+	font-family: var(--ff-primary);
+	font-weight: 400;
+	font-size: 1rem;
+	line-height: 1.6;
+}
+
+body,
+h1,
+h2,
+h3,
+p {
+	margin: 0;
+}
+
+h1,
+h2,
+h3 {
+	color: var(--clr-primary-400);
+	font-family: var(--ff-accent);
+	line-height: 1;
+	font-weight: 900;
+}
+
+h2,
+h3,
+p {
+	margin-bottom: 0.5em;
+}
+
+#container {
+	margin: auto;
+	padding: 0;
+}
+img {
+	max-width: 100%;
+}
+
+.primary-font {
+	font-family: var(--ff-primary);
+}
+
+.accent-font {
+	font-family: var(--ff-accent);
+}
+
+header {
+	display: flex;
+}
+
+nav {
+	background: var(--clr-accent-100);
+}
+
+footer {
+	color: var(--clr-primary-900);
+	background: var(--clr-neutral-100);
+	font-size: 0.8rem;
+	padding: 0.1rem;
+	margin: 0;
+}
+
+/* general */
+.flex {
+	display: flex;
+	gap: var(--gap, 1rem);
+}
+
+/* header */
+.logo {
+	margin: 0.5rem;
+	width: 100%;
+}
+
+.primary-header {
+	align-items: center;
+	justify-content: space-between;
+}
+
+.sr_only {
+	display: none;
+}
+
+.text-white {
+	color: var(--clr-neutral-100);
+}
+
+.social-icon {
+	display: inline-block;
+	padding: 0;
+  font-size: 1.5rem;
+  margin: 0;
+	background: var(--clr-neutral-100);
+	width: 100%;
+}
+
+.social-icon a {
+	padding: 5px;
+	text-decoration: none;
+}
+
+.social-icon a:hover{
+	opacity: 0.7;
+}
+
+.social-icon a:visited{
+	text-decoration: none;
+}
+
+.main-content {
+	display: flex;
+	width: auto;
+}
+
+.main-content .content {
+	margin: 0;
+	padding: 0.1rem
+}
+
+h1 {
+	font-size: 1.7rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+}
+
+h3{
+	font-size: 1.3rem;
+}
+
+.main-content .content img {
+	width: 100%;
+}
+
+.artworks-content {
+	display: flex;
+	width: 100%;
+	flex-direction: row;
+}
+
+.quicklinks {
+	font-size: 0.9rem;
+}
