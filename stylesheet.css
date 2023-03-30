@@ -151,11 +151,10 @@ h2 {
 
 .page {
 	width: 100wh;
-	height: 84vh;
-	overflow: hidden;
-	position: relative;
+	min-height: 100vh;
 
 }
+
 .paging {
 	height: 87vh;
 	width: 100wh;
