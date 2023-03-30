@@ -168,3 +168,20 @@ h2 {
 	background-color: var(--clr-primary-900);
 	color: var(--clr-highlight);
 }
+
+
+@include media-breakpoint-up(sm) {
+	
+ }
+
+@include media-breakpoint-down(sm) {
+	.sidebar {
+		width: 100%;
+	}
+ }
+@include media-breakpoint-down(md) { 
+	.sidebar {
+		width: 4.5rem;
+		
+	}
+}
