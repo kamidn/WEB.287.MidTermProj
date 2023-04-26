@@ -61,9 +61,9 @@ header {
 
 footer {
 	color: var(clr-primary-900);
-	font-size: 0.7rem;
+	font-size: 0.9rem;
 	padding: 0.2rem;
-	height: 3vh;
+	height: 5vh;
 }
 
 /* general */
